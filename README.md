@@ -41,3 +41,7 @@ Perfect for:
 **Warning:** Side effects may include uncontrollable laughter, deep philosophical questions about the nature of reality, and an inexplicable urge to show everyone your beautifully terrible creations.
 
 *"It's not a bug, it's a feature!"* - The v2v-oh-no development philosophy
+
+
+Joking aside, this was just a Sunday afternoon vibe project that i thought could be a nice starting point as a creative or artistic ai fueled pipeline for LocalLLM enthusiasts.
+Vibe coded under thread of a big stick by Cluade Sonnet 4.0 (i didn't actually threaten it, but i hear that it can help)
