@@ -1,0 +1,24 @@
+# Core ML libraries
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+diffusers>=0.20.0
+accelerate>=0.20.0
+
+# Image processing
+Pillow>=9.0.0
+opencv-python>=4.7.0
+
+# Additional dependencies
+safetensors>=0.3.0
+tokenizers>=0.13.0
+huggingface-hub>=0.15.0
+
+# Optional: For better performance
+# xformers>=0.0.20  # Uncomment for faster attention (CUDA only)
+
+# System requirements (install separately):
+# ffmpeg - Required for audio support
+#   Ubuntu/Debian: sudo apt install ffmpeg
+#   macOS: brew install ffmpeg
+#   Windows: Download from https://ffmpeg.org/download.html
