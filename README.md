@@ -5,6 +5,13 @@ AI video-to-video conversion through the transformative process of image caption
 
 Usage: `python3 v2v.py -i input.mp4 -o output.mp4 -fps 3 --pip`
 
+## Example Output
+Check out what happens when you feed perfectly good footage through our AI fever dream machine:
+
+[![v2v-oh-no Example](https://img.youtube.com/vi/MNMbtHhILHc/0.jpg)](https://youtube.com/shorts/MNMbtHhILHc?feature=share)
+
+*Click to see the beautiful chaos in action*
+
 ## Program steps
 1. Deconstruction (Video to Frames) 
 2. AI Perception (Frames to Text)
