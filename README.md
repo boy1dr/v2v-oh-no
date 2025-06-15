@@ -1,2 +1,43 @@
 # v2v-oh-no
-Worlds least useful video-to-image-to-text-to-image-to-video converter (v2i2t2i2v for short).
+World's least useful video-to-image-to-text-to-image-to-video converter, or v2i2t2i2v for short.
+
+AI video-to-video conversion through the transformative process of image captioning and text-to-image generation
+
+Usage: `python3 v2v.py -i input.mp4 -o output.mp4 -fps 3 --pip`
+
+## Program steps
+1. Deconstruction (Video to Frames) 
+2. AI Perception (Frames to Text)
+3. AI Imagination (Text to Frames)
+4. Reconstruction (Frames to Video)
+5. Recombine (picture in picture and audio)
+
+Optimised for low VRAM. For example RTX3080 10GB
+
+## What This Does (And Why It Exists)
+
+Ever wondered what would happen if you fed your vacation footage through the digital equivalent of a telephone game played by robots having fever dreams? Wonder no more! 
+
+v2v-oh-no takes your perfectly good video and puts it through an unnecessarily convoluted AI pipeline that:
+- Strips your video into individual frames (because apparently that's not destructive enough)
+- Asks an AI to describe what it "sees" in each frame (spoiler: it's usually wrong)
+- Feeds those descriptions to another AI that creates "artistic interpretations" (and we use that term very loosely)
+- Stitches everything back together with the confidence of someone who definitely knows what they're doing
+
+The result? A fever dream version of your original video that might vaguely resemble what you started with, if you squint really hard and have consumed the right amount of caffeine.
+
+### Why Does This Exist?
+
+Because someone had to answer the age-old question: "What if we made video editing as inefficient and unpredictable as possible?" 
+
+This project exists in the proud tradition of "because we can" engineering, where the journey of unnecessary complexity is more important than the destination of actually useful results. It's like turning your bicycle into a Rube Goldberg machine that still gets you from point A to point B, but now involves seventeen AI models, a rubber duck, and at least three existential crises.
+
+Perfect for:
+- Impressing friends with your commitment to overthinking simple problems
+- Creating "art" that makes people question their life choices
+- Testing the limits of your GPU's patience
+- Proving that just because AI can do something doesn't mean it should
+
+**Warning:** Side effects may include uncontrollable laughter, deep philosophical questions about the nature of reality, and an inexplicable urge to show everyone your beautifully terrible creations.
+
+*"It's not a bug, it's a feature!"* - The v2v-oh-no development philosophy
