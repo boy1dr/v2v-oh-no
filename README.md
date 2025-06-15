@@ -14,6 +14,28 @@ Usage: `python3 v2v.py -i input.mp4 -o output.mp4 -fps 3 --pip`
 
 Optimised for low VRAM. For example RTX3080 10GB
 
+## Installation
+```bash
+# Create a new folder and cd into it
+mkdir v2v
+cd v2v
+
+# Setup and download this git repo
+git clone https://github.com/boy1dr/v2v-oh-no.git
+cd v2v-oh-no
+
+# Create python virtual environment and install requirements
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+# Install ffmpeg (required for audio support)
+# Ubuntu/Debian:
+sudo apt install ffmpeg
+# macOS:
+brew install ffmpeg
+```
+
 ## What This Does (And Why It Exists)
 
 Ever wondered what would happen if you fed your vacation footage through the digital equivalent of a telephone game played by robots having fever dreams? Wonder no more! 
@@ -42,6 +64,8 @@ Perfect for:
 
 *"It's not a bug, it's a feature!"* - The v2v-oh-no development philosophy
 
+---
 
-Joking aside, this was just a Sunday afternoon vibe project that i thought could be a nice starting point as a creative or artistic ai fueled pipeline for LocalLLM enthusiasts.
-Vibe coded under thread of a big stick by Cluade Sonnet 4.0 (i didn't actually threaten it, but i hear that it can help)
+Joking aside, this was just a Sunday afternoon vibe project that I thought could be a nice starting point as a creative or artistic AI-fueled pipeline for LocalLLM enthusiasts.
+
+Vibe coded under threat of a big stick by Claude Sonnet 4.0 (I didn't actually threaten it, but I hear that can help)
